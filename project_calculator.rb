@@ -88,16 +88,16 @@ answers.each do |answer|
   if answer == "d"
     total = total + 4
     
-if total =< 7
+if total <= 7
   puts "You're most compatible with air signs!"
   
-if total > 7 && total =< 12 
+if total > 7 && total <= 12 
   puts "You're most compatible with earth signs!"
 
-if total > 12 && total =< 16 
+if total > 12 && total <= 16 
   puts "You're most compatible with fire signs!"
 
-if total > 16 && total =< 20
+if total > 16 && total <= 20
   puts "You're most compatible with water signs!"
   
 end 

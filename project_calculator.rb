@@ -80,14 +80,13 @@ end
 
 #other questions
 
-q2 = "what word would your friends use to descibe you?
+puts "what word would your friends use to descibe you?
 (a)intellectual
 (b)practical 
 (c)passionate/enegetic
 (d)emotional or mysterious"
 
 anwser = gets.chomp 
-puts q2
 
 
 if anwser== "a" 
@@ -100,9 +99,13 @@ else anwser == "d"
   total += 4 
 end
 
-q3 = "what color do you most associate yourself with or just like?/n(a)pastels+aqua/n(b)light greens + brown/n(c)blues+intense colors/n(d)red+purple"
+puts "what color do you most associate yourself with or just like?
+(a)pastels+aqua
+(b)light greens + brown
+(c)blues+intense colors
+(d)red+purple"
   
-   puts q3
+   
    anwser= gets.chomp
  
   if anwser=="a" 

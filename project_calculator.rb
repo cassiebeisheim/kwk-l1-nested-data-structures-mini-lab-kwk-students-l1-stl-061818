@@ -73,14 +73,9 @@ elsif answer_1 == "Aquarius"
   answers.push("a")
 
 else answer_1 == "Pisces"
-  puts "You're a water sign! You're known for being compassionate, emotional, and overly trusting. Answer the following questions to find out what type of sign you should be looking for!"
-  answers.push("d")
+  puts "You're a water sign! You're known for being compassionate, emotional, and overly trusting. Answer the following questions to find out what type of sign you should be looking for!
   
-end
-
-#other questions
-
-puts "what word would your friends use to descibe you?
+  What word would your friends use to descibe you?
 (a)intellectual
 (b)practical 
 (c)passionate/enegetic
@@ -168,10 +163,10 @@ answers.each do |answer|
   end
 end
     
-if total <= 7
+if total <= 9
   puts "You're most compatible with air signs!"
   
-elsif total > 7 && total <= 12 
+elsif total > 9 && total <= 12 
   puts "You're most compatible with earth signs!"
 
 elsif total > 12 && total <= 16 

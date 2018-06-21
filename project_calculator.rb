@@ -1,5 +1,3 @@
-
-
 def compatability_quiz
   
 answers=[]
@@ -31,11 +29,11 @@ Pisces (February 19 to March 20)"
 answer_1 = gets.chomp 
 
 if answer_1 == "Aries"
-  puts "You're a fire sign! Aries are knows for their energy, turbulance, and competitiveness. Answer the following questions to find out what type of sign you should be looking for!"
+  puts "You're a fire sign! You're known for your energy, turbulance, and competitiveness. Answer the following questions to find out what type of sign you should be looking for!"
   answers.push("c")
   
 elsif answer_1 == "Taurus"
-  puts "You're an earth sign! Tauruses are known for being practical, well grounded, and practical. Answer the following questions to find out what type of sign you should be looking for!"
+  puts "You're an earth sign! You're known for being practical, well grounded, and level headed. Answer the following questions to find out what type of sign you should be looking for!"
   answers.push("b")
 
 elsif answer_1 == "Gemini"
@@ -63,22 +61,23 @@ elsif answer_1 == "Scorpio"
   answers.push("d")
 
 elsif answer_1 == "Sagittarius"
-  puts "xyz"
+  puts "You're a fire sign! You're known for being generous, idealistic, and impacient. Answer the following questions to find out what type of sign you should be looking for!"
   answers.push("c")
 
 elsif answer_1 == "Capricorn"
-  puts "xyz"
+  puts "You're an earth sign! You're known for being responsible, a good leader, and disciplined. Answer the following questions to find out what type of sign you should be looking for!"
   answers.push("b")
 
 elsif answer_1 == "Aquarius"
-  puts "xyz"
+  puts "You're an air sign! You're known for being original, progressive, and uncompromising. Answer the following questions to find out what type of sign you should be looking for!"
   answers.push("a")
 
 else answer_1 == "Pisces"
-  puts "xyz"
+  puts "You're a water sign! You're known for being compassionate, emotional, and overly trusting. Answer the following questions to find out what type of sign you should be looking for!"
   answers.push("d")
   
 end
 end
 
 puts compatability_quiz
+

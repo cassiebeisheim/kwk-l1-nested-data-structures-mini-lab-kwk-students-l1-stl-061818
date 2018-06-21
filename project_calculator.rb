@@ -99,6 +99,8 @@ if total > 12 && total =< 16
 
 if total > 16 && total =< 20
   puts "You're most compatible with water signs!"
+  
+end 
 end
 
 puts compatability_quiz

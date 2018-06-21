@@ -92,16 +92,16 @@ answers.each do |answer|
   end
 end
     
-if total =< 7
+if total <= 7
   puts "You're most compatible with air signs!"
   
-elsif total > 7 && total =< 12 
+elsif total > 7 && total <= 12 
   puts "You're most compatible with earth signs!"
 
-elsif total > 12 && total =< 16 
+elsif total > 12 && total <= 16 
   puts "You're most compatible with fire signs!"
 
-elsif total > 16 && total =< 20
+elsif total > 16 && total <= 20
   puts "You're most compatible with water signs!"
   
 end 

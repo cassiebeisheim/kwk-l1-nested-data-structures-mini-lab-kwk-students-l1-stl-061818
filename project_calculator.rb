@@ -80,8 +80,11 @@ end
 
 #other questions
 
-total = 0
-q2 = "what word would your friends use to descibe you?/n(a)intellectual/n(b)practical /n(c)passionate/enegetic/n(d)emotional or mysterious"
+q2 = "what word would your friends use to descibe you?
+(a)intellectual
+(b)practical 
+(c)passionate/enegetic
+(d)emotional or mysterious"
 
 anwser = gets.chomp 
 puts q2
@@ -96,8 +99,8 @@ elsif anwser == "c"
 else anwser == "d"
   total += 4 
 end
-  
-  q3 = "what color do you most associate yourself with or just like?/n(a)pastels+aqua/n(b)light greens + brown/n(c)blues+intense colors/n(d)red+purple"
+
+q3 = "what color do you most associate yourself with or just like?/n(a)pastels+aqua/n(b)light greens + brown/n(c)blues+intense colors/n(d)red+purple"
   
    puts q3
    anwser= gets.chomp

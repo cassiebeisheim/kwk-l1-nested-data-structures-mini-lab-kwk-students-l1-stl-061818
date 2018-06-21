@@ -90,6 +90,7 @@ answers.each do |answer|
   else answer == "d"
     total = total + 4
   end
+end
     
 if total =< 7
   puts "You're most compatible with air signs!"

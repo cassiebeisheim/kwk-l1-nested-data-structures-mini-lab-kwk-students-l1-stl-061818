@@ -100,7 +100,7 @@ elsif total > 7 && total =< 12
 elsif total > 12 && total =< 16 
   puts "You're most compatible with fire signs!"
 
-else total > 16 && total =< 20
+elsif total > 16 && total =< 20
   puts "You're most compatible with water signs!"
   
 end 
